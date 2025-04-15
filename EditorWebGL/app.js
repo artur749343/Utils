@@ -54,11 +54,6 @@ const frameBufferCount=2;
 // Game Of Life JavaScript
 const mouse=[0,0,0,0];
 let Density=10.0;
-function livelyPropertyListener(name, val){
-    if(name=="densityDiffusion"){
-    	Density=val;
-    }
-}
 
 function initialize(gl, canvas){
 	window.addEventListener("mousemove", function (e) {
